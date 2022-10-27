@@ -1,0 +1,1 @@
+import{b as e}from"./index.741ecb36.js";const n={};function c(r,a){return"app001w-main"}const p=e(n,[["render",c],["__file","/Users/MrCuteJacky/Documents/Projects/einvoice/einvoice-app-frontend/src/components/app001w/app001w-main.vue"]]);export{p as default};
