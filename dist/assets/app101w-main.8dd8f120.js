@@ -1,0 +1,1 @@
+import{b as e}from"./index.fed55b31.js";const n={};function c(r,a){return" app101w-main "}const p=e(n,[["render",c],["__file","/Users/MrCuteJacky/Documents/Projects/einvoice/einvoice-app-frontend/src/components/app101w/app101w-main.vue"]]);export{p as default};
