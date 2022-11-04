@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type='text/javascript' src='//ovct.voa.fia.gov.tw/FontSubsetOutput/WebFontStd-BBBFFD8F3296479BB605F7D3A0193B28/WebFontStd-BBBFFD8F3296479BB605F7D3A0193B28.JS?9395323985'></script>
+
+<script>
+function doFresh() {
+	if (arphicWebFontApi) {
+		arphicWebFontApi.load();
+	} else {
+		alert("WebFont js 尚未載入完畢");
+	}
+}
+</script>
+<style>
+input, select, textarea, button{font-family:inherit;}
+</style>
+</head>
+<body>
+
+
+<br>
+<div  style="font-size: 24pt">
+<input type="button" value="Refresh" onclick="javascript:doFresh();" ><br>
+此處不使用 WebFont <input type="text" value="這是測試-ab𠀀c󹀇" style="font-size: 24pt"><br>
+<br>
+此處將套用 WebFont <input type="text" class="arWebFont" value="這是測試-ab𠀀c󹀇" style="font-size: 24pt"><br>
+</div>
+<br>
+<div   class="arWebFont">
+	1. input:<br><input type="text" value="ab𠀀c󹀇" >
+	<br><br>
+	2. select:<br><select >
+		<option value="volvo">ab𠀀c󹀇</option>
+		<option value="saab">ab𠀀c󹀇_2</option>
+	</select>
+	<br><br>
+	3. textarea:<br><textarea rows="4" cols="50" >ab𠀀c󹀇</textarea>
+	<br><br>
+	4. button:<br><button type="button" >ab𠀀c󹀇</button>
+</div>
+
+</body>
+
+</html>
